@@ -1,10 +1,21 @@
-dt
+h1
 {
-    margin-top: 20px;
-    width:500px;
+    text-align:center;
 }
-dd
+p
 {
-    display:none;
+    width:30%;
+    margin:4%;
+    max-width:300px;
+    float:right;
+}
+p:first-child
+{   
+    width:40%;
+    max-width:500px;
+}
+div
+{
+    clear:both;
 }
 
