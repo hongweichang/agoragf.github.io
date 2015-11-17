@@ -1,5 +1,10 @@
-p
+dt
 {
+    margin-top: 20px;
     width:500px;
+}
+dd
+{
+    display:none;
 }
 
