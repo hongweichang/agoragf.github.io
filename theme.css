@@ -1,3 +1,8 @@
+.xx-small
+{
+    font-size:xx-small;
+}
+
 h1
 {
     text-align:center;
@@ -6,8 +11,8 @@ p
 {
     width:30%;
     max-width:600px;
-    float:left;
     margin:4%;
+    float:left;
 }
 p:first-child
 {   
@@ -15,9 +20,10 @@ p:first-child
     
     max-width:300px;
 }
+
 p:last-child
 {
-    display:none;
+    
 }
 
 div
