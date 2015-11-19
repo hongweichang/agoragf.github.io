@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("button:contains(?)").click(function(){
-        $("button:hover + p").toggle();
+    $("p").click(function(){
+        $("p:hover + p").toggle();
         });
 });

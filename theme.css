@@ -17,7 +17,7 @@ p:first-child
 }
 p:last-child
 {
-    display:one;
+    display:none;
 }
 
 div
