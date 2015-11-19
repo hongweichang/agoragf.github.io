@@ -25,6 +25,11 @@ p:first-child
     max-width:300px;
 }
 
+p:last-child
+{
+    
+}
+
 div
 {
     clear:both;
