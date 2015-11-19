@@ -2,7 +2,11 @@
 {
     font-size:xx-small;
 }
-
+.inverted
+{
+   filter: invert(100%);
+   background-color: black;
+}
 h1
 {
     text-align:center;
