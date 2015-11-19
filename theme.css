@@ -2,6 +2,10 @@
 {
     font-size:xx-small;
 }
+.hidden {
+    overflow: hidden;
+    height: 10em;
+}
 .inverted
 {
    filter: invert(100%);
