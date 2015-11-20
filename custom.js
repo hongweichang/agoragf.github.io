@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $( "body > div" ).addClass( "hidden" );
-    $( ".hidden" ).click(function(){
-	$("*").removeClass("hidden");
+    $("*").one("click", function(){
+	$("body > div").removeClass("hidden");
         });
    
 
