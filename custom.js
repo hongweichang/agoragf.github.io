@@ -1,13 +1,8 @@
 $(document).ready(function(){
-    $( "p, body > div" ).addClass( "hidden" );
-    $( "p" ).click(function(){
-	$( this ).toggleClass("hidden");
-        $( this ).parent().removeClass("hidden");
-        $( this ).parent().parent().removeClass("hidden");
+    $( "body > div" ).addClass( "hidden" );
+    $( ".hidden" ).click(function(){
+	$("*").removeClass("hidden");
         });
-    $( "body > p" ).click(function(){
-	$( this ).next().toggleClass("hidden");
-        });5
    
 
     $("h1").click(function(){
