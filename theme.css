@@ -4,7 +4,7 @@
 }
 .hidden {
     overflow: hidden;
-    height: 10em;
+    height: 8.5em;
 }
 .inverted
 {
@@ -15,27 +15,26 @@ h1
 {
     text-align:center;
 }
-p
+div, p
 {
-    width:30%;
-    max-width:600px;
-    margin:4%;
     float:left;
 }
-p:first-child
-{   
-    width:16%;
-    
-    max-width:300px;
+
+body >  p
+{
+    width:15%;
+    clear:left;
+    margin:4%;
+}
+body >  div
+{
+    width:77%;
+}
+body > div  > div > p, body > div > p
+{
+  width:42%;
+    margin:4%; 
 }
 
-p:last-child
-{
-    
-}
 
-div
-{
-    clear:both;
-}
 
