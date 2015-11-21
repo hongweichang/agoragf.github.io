@@ -15,17 +15,22 @@ h1
 {
     text-align:center;
 }
-div, p
+div
 {
     float:left;
 }
+p
+{
+    float:left;
+    margin:4%;
+}
+
 
 body >  p
 {
     width:15%;
     clear:left;
-    margin:4%;
-}
+    }
 body >  div
 {
     width:77%;
@@ -33,7 +38,6 @@ body >  div
 body > div  > div > p, body > div > p
 {
   width:42%;
-    margin:4%; 
 }
 
 
