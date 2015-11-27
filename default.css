@@ -17,14 +17,14 @@ h1 {
 }
 
 dt {
-  float: left;
   clear: left;
+  float: left;
   margin: 4%
 }
 
 dd {
-  margin: 0;
   float: left;
+  margin: 0;
 }
 
 body > dl > dt {
@@ -36,10 +36,10 @@ body > dl > dd {
 }
 
 dd > dl > dt {
-   width: 42%;
+  width: 42%;
 }
 
 dd > dl > dd {
-  width: 42%;
   margin: 4%;
-  }
+  width: 42%;
+}
