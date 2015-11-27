@@ -1,0 +1,37 @@
+.hidden {
+  height: 8em;
+  overflow: hidden;
+}
+
+.inverted {
+  background-color: black;
+  filter: invert(100%);
+}
+
+.xx-small {
+  font-size: xx-small;
+}
+
+h1 {
+  text-align: center;
+}
+
+dt {
+  float: left;
+  clear: left;
+}
+
+dd {
+  float: left;
+}
+
+body > dl > dt {
+  width: 200px;
+  margin: 2%;
+  }
+
+dd > dl > dt,
+dd > dl > dd {
+  width: 300px;
+  margin: 10px;
+}
