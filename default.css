@@ -19,19 +19,27 @@ h1 {
 dt {
   float: left;
   clear: left;
+  margin: 4%
 }
 
 dd {
+  margin: 0;
   float: left;
 }
 
 body > dl > dt {
-  width: 200px;
-  margin: 2%;
-  }
-
-dd > dl > dt,
-dd > dl > dd {
-  width: 300px;
-  margin: 10px;
+  width: 16%;
 }
+
+body > dl > dd {
+  width: 76%;
+}
+
+dd > dl > dt {
+   width: 42%;
+}
+
+dd > dl > dd {
+  width: 42%;
+  margin: 4%;
+  }
