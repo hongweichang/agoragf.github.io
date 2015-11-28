@@ -22,16 +22,13 @@ dt {
   margin: 4%
 }
 
-dd {
-  float: left;
-  margin: 0;
-}
-
 body > dl > dt {
   width: 16%;
 }
 
 body > dl > dd {
+  float: left;
+  margin: 0;
   width: 76%;
 }
 
@@ -40,6 +37,8 @@ dd > dl > dt {
 }
 
 dd > dl > dd {
+  float: right;
+  clear: right;
   margin: 4%;
   width: 42%;
 }
