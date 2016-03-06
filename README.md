@@ -1,2 +1,2 @@
 # agoragf.github.io
-Agora, global festivals
+Agora Ekklesia

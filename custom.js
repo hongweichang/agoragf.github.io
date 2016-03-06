@@ -6,7 +6,6 @@ $(document).ready(function(){
    
 
     $("h1").click(function(){
-        $("h1").toggleClass("xx-small");
         $("body").toggleClass("inverted");
         });
 });
