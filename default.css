@@ -3,13 +3,8 @@
   overflow: hidden;
 }
 
-.inverted {
-  background-color: black;
-  filter: invert(100%);
-}
-
-.xx-small {
-  font-size: xx-small;
+.license {
+  clear: both;
 }
 
 h1 {
